@@ -1,0 +1,116 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+.navbar {
+  font-size: 1.2rem;
+}
+
+.intro-header {
+   background-image: url('../img/linkedin.jpeg');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   height: 100vh;
+
+}
+
+.intro-message {
+  position: relative;
+  text-align: center;
+  top: 65vh;
+}
+
+.intro-header h1 {
+  font-size: 80px;
+  text-shadow: 5rem;
+  color: azure;
+  text-shadow: 2px 2px 8px #111;
+}
+
+.far, .fab, .fas {
+  color: black;
+  padding-right: 2px;
+}
+
+.btn {
+  background-color: azure;
+  opacity: 80%;
+}
+.network-name {
+  color: #111;
+}
+.section-heading {
+  padding-bottom: 40px;
+}
+.row {
+  padding-bottom: 30px;
+}
+
+.lead {
+  margin-bottom: 0;
+  padding: 10px;
+}
+
+.card-header {
+  padding: 5px;
+}
+/* .collapse, .collapsing {
+  padding: 10px;
+} */
+
+
+.img-ucla {
+  width: 150px;
+  padding-bottom: 10px;
+}
+.img-amazon, .img-gottlieb  {
+  width: 180px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+}
+.img-intclindash, .img-goobeats, .img-kont, .img-emacsnacs {
+  width: 350px;
+}
+.img-emacsnacs {
+  padding: 0 30px;
+  padding-bottom: 30px;
+}
+
+.banner {
+  background-image: url('../img/uclabrand.jpg');
+  background-size: cover;
+  padding: 100px;
+  padding-bottom: 0px;
+  text-align: center;
+}
+
+.footer-social {
+  align-items: center;
+  padding-left: 5.3vw;
+}
+.copyright {
+  margin: 0;
+}
+#connect-row {
+  padding-bottom: 100px;
+}
+/* #connect-row {
+  padding-bottom: 100px;
+  position: center;
+} */
+
+.navbar {
+  background-color: #fff;
+  width: 100%;
+  height: 50px;
+  z-index: 600;
+  transition: 0.8s;
+  box-shadow: 1px 1px 4px #C0C0C0;
+}
+.content-section-b, .content-section-a {
+  padding-top: 40px;
+}
