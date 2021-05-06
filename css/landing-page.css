@@ -2,25 +2,43 @@ html {
   scroll-behavior: smooth;
 }
 
-
-
 .navbar {
   font-size: 1.2rem;
 }
 
-.intro-header {
-   background-image: url('../img/linkedin.jpeg');
-   background-repeat: no-repeat;
-   background-position: center;
-   background-size: cover;
-   height: 100vh;
+.image-cropper {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 50%;
+  /* Center vertically and horizontally */
+  position: relative;
+  top: 20%;
+  left: 37%;
+  margin: 0;
+  padding-bottom: 100px;
+  box-shadow: 0px 0 6px 6px #fd9346, 0 0 9px 9px #fda766, 0 0 10px 10px #fdb777;
+}
+.profile-pic {
+  bottom: -10%;
+  right: 0%;
+  width: 100%;
+  position: absolute;
+  /* height: auto; */
+}
 
+.intro-header {
+  background-image: url('../img/bigbear.JPG');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
 }
 
 .intro-message {
   position: relative;
   text-align: center;
-  top: 65vh;
+  top: 30vh;
 }
 
 .intro-header h1 {
@@ -30,7 +48,9 @@ html {
   text-shadow: 2px 2px 8px #111;
 }
 
-.far, .fab, .fas {
+.far,
+.fab,
+.fas {
   color: black;
   padding-right: 2px;
 }
@@ -61,18 +81,21 @@ html {
   padding: 10px;
 } */
 
-
 .img-ucla {
   width: 150px;
   padding-bottom: 10px;
 }
-.img-amazon, .img-gottlieb  {
+.img-amazon,
+.img-gottlieb {
   width: 180px;
   padding-top: 15px;
   padding-bottom: 30px;
   padding-right: 30px;
 }
-.img-intclindash, .img-goobeats, .img-kont, .img-emacsnacs {
+.img-intclindash,
+.img-goobeats,
+.img-kont,
+.img-emacsnacs {
   width: 350px;
 }
 .img-emacsnacs {
@@ -109,8 +132,9 @@ html {
   height: 50px;
   z-index: 600;
   transition: 0.8s;
-  box-shadow: 1px 1px 4px #C0C0C0;
+  box-shadow: 1px 1px 4px #c0c0c0;
 }
-.content-section-b, .content-section-a {
+.content-section-b,
+.content-section-a {
   padding-top: 40px;
 }

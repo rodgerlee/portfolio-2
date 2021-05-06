@@ -1,15 +1,72 @@
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -23,8 +80,17 @@ body {
   line-height: 1;
 }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -32,12 +98,15 @@ nav ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
   content: '';
   content: none;
 }
@@ -69,7 +138,8 @@ del {
   text-decoration: line-through;
 }
 
-abbr[title], dfn[title] {
+abbr[title],
+dfn[title] {
   border-bottom: 1px dotted;
   cursor: help;
 }
@@ -89,7 +159,8 @@ hr {
   padding: 0;
 }
 
-input, select {
+input,
+select {
   vertical-align: middle;
 }
 
@@ -100,11 +171,11 @@ html {
 }
 
 .grow {
-transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .grow:hover {
-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 * {
@@ -120,7 +191,7 @@ header {
   position: fixed;
   z-index: 600;
   transition: 0.8s;
-  box-shadow: 1px 1px 4px #C0C0C0;
+  box-shadow: 1px 1px 4px #c0c0c0;
 }
 
 header nav ul {
@@ -150,7 +221,7 @@ header nav ul li a {
 .index-banner {
   width: 100%;
   height: 100vh;
-  background-image: url('../img/linkedin.jpeg');
+  background-image: url('../img/IMG6230.jpg');
   background-color: #d4f3ef;
   font-family: Catamaran;
   /* background-repeat: no-repeat; */
@@ -165,7 +236,6 @@ header nav ul li a {
   /* display: block; */
   position: center;
   padding-top: 50vh;
-
 }
 
 .index-banner h1 {
@@ -188,10 +258,8 @@ header nav ul li a {
 .about-me {
   overflow: hidden;
   /* background-color: #fbffff; */
-  background: linear-gradient(180deg,
-  hsl(60, 33%, 99%),
-  hsl(221, 84%, 87%));
-      
+  background: linear-gradient(180deg, hsl(60, 33%, 99%), hsl(221, 84%, 87%));
+
   font-family: Catamaran;
 }
 
@@ -222,22 +290,22 @@ header nav ul li a {
   float: left;
   border-radius: 10px;
   box-shadow: 10px 10px 10px #3f3f44;
-  border:2px solid #fff;
-  transition: all .2s ease-in-out;
+  border: 2px solid #fff;
+  transition: all 0.2s ease-in-out;
 }
 .side-img:hover {
   transform: scale(1.1);
 }
 
-#headerPopup{
-  width:auto;
+#headerPopup {
+  width: auto;
   height: 700px;
   text-align: center;
 }
 
-#headerPopup iframe{
-  width:50%;
-  margin:0 auto;
+#headerPopup iframe {
+  width: 50%;
+  margin: 0 auto;
 }
 
 h3 {
@@ -265,7 +333,6 @@ p {
   font-size: 100%;
   min-width: 40%;
 }
-
 
 /* education */
 .education-section {
@@ -364,10 +431,8 @@ p {
 /* contact */
 .contact {
   height: auto;
-  background: linear-gradient(to right,
-    hsl(82, 29%, 89%),
-    hsl(41, 77%, 65%));
-        
+  background: linear-gradient(to right, hsl(82, 29%, 89%), hsl(41, 77%, 65%));
+
   padding: 20px 0;
   text-align: center;
   font-family: Catamaran;
@@ -386,5 +451,4 @@ p {
 .contact img {
   width: 100px;
   padding: 16px 20px;
-
 }
